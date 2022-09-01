@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -30,4 +36,59 @@ ul li {
   font-weight: bold;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase {
+  background-image: url("../images/01.jpeg");
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 500px; */
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+
+.showcase_content {
+  padding: 50px 10px;
+  background-color: greenyellow;
+}
+.showcase_content h1 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+.showcase_content p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.about_wrap {
+  display: flex;
+  width: 80%;
+
+  margin: auto;
+  margin-bottom: 500px;
+}
+
+.about_wrap img {
+  width: 500px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.about_wrap h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.about_wrap p {
+  margin-bottom: 30px;
+  font-size: 28px;
 }
